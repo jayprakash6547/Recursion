@@ -9,7 +9,7 @@ int powerofTwo(int a,int b){
     return a*powerofTwo(a,b-1);
 }
 int main(){
-  int a,b;
-  cin>>a>>b;
+  int a=2,b;
+  cin>>b;
   cout<<powerofTwo(a,b);
 }
